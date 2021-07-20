@@ -49,7 +49,7 @@
 
 ### Pictures 
 * Questions Page (index.html)
-<img src = "./pictures/index.html"> </img>
+<img src = "./pictures/index.jpg"> </img>
 * Answers Page (answers.html)
 
 
