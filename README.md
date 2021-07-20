@@ -51,14 +51,15 @@
 <ul>
  <li>
   Questions Page (index.html)
-  <img src = "./pictures/index.jpg"> </img>
+  <img src = "./pictures/index.jpg" with="400" height="400"> </img>
  </li>
  
  <li>
  Answers Page (answers.html)
- <img src = "./pictures/answers.jpg"> </img>
+ <img src = "./pictures/answers.jpg" width="400" height="400"> </img>
  </li>
 </ul>
 
 ### Sources
-1) 
+1) Finding the day of the week. (https://web.archive.org/web/20061018103244/http://www.cs.wustl.edu/~ksl2/mathpoem.html)
+2) Archive on "How to calculate the day of the week mentally". (https://web.archive.org/web/20070115153606/http://www.theworldofstuff.com/other/day.html)
