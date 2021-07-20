@@ -47,7 +47,11 @@
 * 2) Node must be install (npm comes with node)
 * 3) Local Host 4000 must be free for the functioning 
 
-## Pictures 
+### Pictures 
 * Questions Page (index.html)
-<img src = "pictures/index.html"> </img>
+<img src = "./pictures/index.html"> </img>
 * Answers Page (answers.html)
+
+
+### Sources
+1) 
