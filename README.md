@@ -48,10 +48,17 @@
 * 3) Local Host 4000 must be free for the functioning 
 
 ### Pictures 
-* Questions Page (index.html)
-<img src = "./pictures/index.jpg"> </img>
-* Answers Page (answers.html)
-
+<ul>
+ <li>
+  Questions Page (index.html)
+  <img src = "./pictures/index.jpg"> </img>
+ </li>
+ 
+ <li>
+ Answers Page (answers.html)
+ <img src = "./pictures/answers.jpg"> </img>
+ </li>
+</ul>
 
 ### Sources
 1) 
