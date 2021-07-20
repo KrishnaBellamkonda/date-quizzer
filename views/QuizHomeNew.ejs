@@ -1,0 +1,35 @@
+<html>
+    
+<h1>
+    <center>
+    <p> DATE-DAY Quiz </p>
+    </center>
+</h1>
+
+<p>
+    Find the Day of the week for the following dates
+</p>
+
+<form action='/answers' method="POST">
+    <% var questions_in_months = []; %>
+    <% questions.forEach((question_in_month, question_index)=>{ %>
+        <% var words = question_in_month.split("-"); %>
+        <% var d = new Date(words[2], words[1]-1, words[0]); %>
+        <% var ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d); %>
+        <% var mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(d);%>
+        <% var da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);%>
+        <% var question_string = `${da}-${mo}-${ye}`;%>
+        <% questions_in_months.push(question_string);%>
+    <% });%>
+<ul>
+    <% questions_in_months.forEach((question, index)=>{ %>
+        <% var answer_name = "answer"+index %>
+        <li>
+            <%= question %> <input type="text" name= <%= answer_name %>  required></input>
+        </li>
+    <% });%>
+</ul>
+
+<input type="submit" value="SUBMIT"> 
+</form>
+</html>

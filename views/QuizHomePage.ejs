@@ -1,0 +1,25 @@
+<html>
+    
+<h1>
+    <center>
+    <p> DATE-DAY Quiz </p>
+    </center>
+</h1>
+
+<p>
+    Find the Day of the week for the following dates
+</p>
+
+<form action='/answers' method="POST">
+<ul>
+    <% questions.forEach((question, index)=>{ %>
+        <% var answer_name = "answer"+index %>
+        <li>
+            <%= question %> <input type="text" name= <%= answer_name %>  required></input>
+        </li>
+    <% });%>
+</ul>
+
+<input type="submit" value="SUBMIT"> 
+</form>
+</html>

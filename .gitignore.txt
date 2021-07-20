@@ -1,0 +1,15 @@
+# Ignore json values
+data/
+
+# Ignore debug 
+debug.log
+
+# Ignore DateQuizzer.bat 
+DateQuizzer.bat
+DateQuizzer.bat.txt
+
+# Vscode 
+.vscode
+
+# All files in data folder 
+data/*

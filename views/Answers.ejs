@@ -1,0 +1,54 @@
+<html>
+<head>
+    <style>
+        .right {
+            background-color: green;
+            color: black;
+            border: 2px solid black;
+            margin: 8px;
+            padding: 8px;
+        }
+
+        .wrong {
+
+            background-color: tomato;
+            color: black;
+            border: 2px solid black;
+            margin: 8px;
+            padding: 8px;
+        }
+    </style>
+
+</head>
+
+<h1>
+    <center>
+        Results
+    </center>
+</h1>
+
+<ul>
+    <% user_answers.forEach((user_answer, index)=>{ %>
+        <% var answer_name = "answer"+index %>
+        <li>
+            <p class= <%= result[index] %> > <%= user_answer %> </p>
+        </li>
+    <% });%>
+</ul>
+
+
+
+<h3>
+    Test Score: <%= test_score %> / <%= user_answers.length %>
+</h3>
+
+<p>
+    <ul>
+        <% correct_answers.forEach((correct_answer, index)=>{ %>
+            <li>
+                <p> <%= correct_answer %> </p>
+        <% });%>
+    </ul> 
+<p>
+
+</html>
