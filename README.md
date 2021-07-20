@@ -49,5 +49,5 @@
 
 ## Pictures 
 * Questions Page (index.html)
-<img src = "./pictures/index.html"> </img>
+<img src = "pictures/index.html"> </img>
 * Answers Page (answers.html)
