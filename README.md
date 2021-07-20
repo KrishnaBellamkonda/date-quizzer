@@ -50,12 +50,12 @@
 ### Pictures 
 <ul>
  <li>
-  Questions Page (index.html)
+  <p>Questions Page (index.html)<p/>
   <img src = "./pictures/index.jpg" width="600" height="400"> </img>
  </li>
  
  <li>
- Answers Page (answers.html)
+ <p>Answers Page (answers.html)</p>
  <img src = "./pictures/answers.jpg" width="600" height="400"> </img>
  </li>
 </ul>
